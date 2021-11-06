@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  color: #00252e;
+}
+.first-page {
+  background: #ebfbff;
+  background-image: url(images/bg-hero-desktop.svg);
+  width: 100vw;
+  height: 100vh;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.free {
+  background: #ffffff;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.mockups {
+  height: 500px;
+}
+.first-note {
+  margin-top: 50px;
+  width: 600px;
+  padding: 50px;
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+}
+.building {
+  font-size: 45px;
+  line-height: 1.5;
+}
+.re-imagines {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+.community {
+  display: flex;
+}
+.started {
+  background: #ff52bf;
+  width: 300px;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.second-page {
+  width: 100vw;
+  height: 100%;
+}
+.containers {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  align-items: center;
+}
+.image {
+  height: 250px;
+}
+.box {
+  display: flex;
+  width: 1000px;
+  margin: 20px;
+  border: 4px solid #8584842c;
+  box-shadow: 1px 1px 1px 1px;
+  color: #8584842c;
+  border-radius: 30px;
+  padding: 70px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #00252e;
+  font-family: "Poppins", sans-serif;
+}
+.note {
+  font-size: 18px;
+  padding: 40px;
+}
+.paragraph {
+  color: #00252ea1;
+  font-weight: 500;
+}
+.container-two {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  border: 3px solid #8584842c;
+  box-shadow: 1px 1px 1px 1px;
+  color: #8584842c;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+}
+.ready {
+  font-size: 30px;
+  font-weight: 700;
+  color: #00252e;
+}
+.started2 {
+  background: #ff52bf;
+  padding: 20px;
+  border-radius: 30px;
+  color: #ffffff;
+  margin: 30px;
+}
+footer {
+  background: #00252e;
+  color: #ffffff;
+  width: 100vw;
+}
+.container-three {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 50px 100px 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.logo-two {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 150px 200px 0;
+  background: #ffffff;
+}
+.contact {
+  display: flex;
+  width: 300px;
+}
+.icon {
+  height: 10px;
+  margin-right: 10px;
+}
+.fab {
+  border: 1px solid #ffffff;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+small{
+ font-size: 16px;
+ margin-left: 1000px;
+}
+/* pseudo element */
+*:hover {
+  cursor: pointer;
+}
+.started,
+.started2:hover {
+  background: #df54ac;
+  transition: all 0.6s ease-in-out;
+}
+@media screen and (max-width: 500px) {
+  .first-page {
+    background: #ebfbff;
+    background-image: url(images/bg-hero-mobile.svg);
+    width: 100vw;
+    height: 100%;
+  }
+  .logo {
+    padding: 15px;
+  }
+  .logo-svg {
+    height: 13px;
+  }
+  .free {
+    background: #ffffff;
+    width: 80px;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+  }
+  .community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mockups {
+    height: 300px;
+    padding: 20px;
+  }
+  .building {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .re-imagines {
+    font-size: 15px;
+    color: #00252e86;
+    font-weight: 700;
+    line-height: 1.7;
+  }
+  .started {
+    width: 250px;
+  }
+  .first-note {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 380px;
+  }
+  .containers {
+    margin: 50px auto;
+  }
+  .note {
+    width: 300px;
+    padding: 0;
+    text-align: center;
+  }
+  .image {
+    height: 200px;
+  }
+  .paragraph {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .container-two {
+    width: 400px;
+  }
+  .started2 {
+    padding: 15px;
+  }
+  .container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0;
+  }
+  .logo-two {
+    height: 50px;
+    padding: 10px;
+    margin: 150px 20px 0;
+    background: #ffffff;
+  }
+  .contact {
+   font-size: 16px;
+   letter-spacing: 1.3px;
+  }
+  .last-flex{
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    margin: 30px 0 0 0;
+  }
+  .last-flex-two{
+    font-size: 16px;
+    letter-spacing: 1.3px;
+  }
+  .icon {
+    height: 20px;
+    margin-right: 10px;
+  }
+ small{
+     margin-left: 0px;
+ }
+}
