@@ -179,11 +179,15 @@ small {
   cursor: pointer;
 }
 @media screen and (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
   .first-page {
     background: #ebfbff;
     background-image: url(images/bg-hero-mobile.svg);
     width: 100vw;
     height: 100%;
+    overflow-x: hidden;
   }
   .logo {
     padding: 15px;
@@ -229,7 +233,8 @@ small {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    width: 380px;
+    width: 350px;
+    margin: 20px auto;
   }
   .containers {
     margin: 50px auto;
@@ -250,15 +255,15 @@ small {
     width: 350px;
     height: 150px;
     top: 180px;
-    left: 130px;
+    left: 30%;
   }
-  .ready{
+  .ready {
     font-size: 16px;
   }
   .started2 {
     padding: 15px;
   }
-  footer{
+  footer {
     margin-top: 200px;
   }
   .container-three {
@@ -286,12 +291,17 @@ small {
     font-size: 16px;
     letter-spacing: 1.3px;
   }
+  .fabs{
+    align-items: center;
+    width: 300px;
+    text-align: center;
+  }
   .icon {
     height: 20px;
     margin-right: 10px;
   }
   small {
-    margin-left: 0px;
-    font: 12px;
+    margin-left: 90px;
+    font-size: 10px;
   }
 }
